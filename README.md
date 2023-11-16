@@ -1,6 +1,7 @@
 # Landmark Detection App
 
 This Streamlit app utilizes a pre-trained TensorFlow Hub model for detecting landmarks in Asia. The model is trained on the Google-Landmarks-v1 dataset.
+You can find our deployment [here](https://landmark-recognition.streamlit.app/)
 
 ## TensorFlow Hub Model
 
@@ -24,6 +25,23 @@ Feel free to customize the folder structure based on your project's needs.
 1. **Clone the repository:**
 
    ```bash
-   [(https://github.com/dhruvk2002/Landmark-Recognition.git)https://github.com/dhruvk2002/Landmark-Recognition.git)]
+   git clone https://github.com/dhruvk2002/Landmark-Recognition.git
+
+2. **Navigate to  the Project Directory**
+
+   ```bash
+   cd Landmark_Recognition
+
+3. **Install Dependencies**
+
+   ```bash
+   pip install -r requirements.txt
+
+4. **Run the streamlit app**
+
+   ```bash
+   streamlit run main.py
+
+  
 
 
